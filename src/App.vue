@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Todos from './components/Todos';
 </script>
 
 <template>
-  <HelloWorld />
+  <main class="mx-auto mt-5 w-[90%]">
+    <Todos />
+  </main>
 </template>
